@@ -122,6 +122,8 @@ module.exports = {
 if (typeof global !== 'undefined') {
   global.ModuleRegistry = module.exports;
 }
+
+/*
  * 模块注册中心，统一管理所有模块的加载和访问
  */
 module.exports = {
