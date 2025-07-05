@@ -1,0 +1,26 @@
+{
+    "servers": {
+        "main": {
+            "host": "screeps.com",
+            "port": 443,
+            "secure": true,
+            "token": "YOUR_AUTH_TOKEN",
+            "branch": "default"
+        },
+        "local": {
+            "host": "127.0.0.1",
+            "port": 21025,
+            "secure": false,
+            "username": "STEAM_USERNAME",
+            "password": "STEAM_PASSWORD",
+            "branch": "local"
+        }
+    },
+    "deploy": {
+        "main": {
+            "path": ".",
+            "exclude": [".git", "node_modules", "*.log"],
+            "dryRun": false
+        }
+    }
+}

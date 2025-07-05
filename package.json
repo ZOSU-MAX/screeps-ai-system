@@ -1,0 +1,13 @@
+{
+    "name": "screeps-automated-ops",
+    "version": "1.0.0",
+    "description": "Screeps全自动运维系统",
+    "main": "main.js",
+    "scripts": {
+        "deploy": "screeps deploy --config screeps.json --branch default",
+        "local-deploy": "screeps deploy --config screeps.json --branch local"
+    },
+    "dependencies": {
+        "screeps": "4.1.0"
+    }
+}
